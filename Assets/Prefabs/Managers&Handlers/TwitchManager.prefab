@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1880113744717768}
+  m_IsPrefabParent: 1
+--- !u!1 &1880113744717768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4057796449441546}
+  - component: {fileID: 114581876470549560}
+  - component: {fileID: 114504488453400228}
+  - component: {fileID: 114047365137558356}
+  m_Layer: 0
+  m_Name: TwitchManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4057796449441546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880113744717768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3129896, y: 1.4070789, z: -0.032827944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114047365137558356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880113744717768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58adae0148387e49b54064723e08fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkGameCode: 0
+  whisperCommands:
+  - command: 2
+    alias:
+    - walk
+    - w
+  - command: 3
+    alias:
+    - throw
+    - t
+  - command: 4
+    alias:
+    - crouch
+    - c
+  messageCommands:
+  - command: 1
+    alias:
+    - join
+    - play
+    - j
+    - p
+--- !u!114 &114504488453400228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880113744717768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4827a113a8dca94a8421bfa2671f4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  channelName: testeribot
+--- !u!114 &114581876470549560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880113744717768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225753f9ae27ca5429f966d88c69cdc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
